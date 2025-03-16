@@ -6,7 +6,7 @@ https://jullle3.github.io/andelsbolig-frontend
 Fra terminal
 gcloud app deploy app.yaml --version=2 --quiet
 
-# V 1.0.0
+# TODO før GoLive 1.0.0
 - Lav scraper som indsamler andelsboliger fra dba, boliga, bolighed, andelsboligforeninger, facebook, instagram, twitter, linkedin, og andre sider
 Scrape fra:
   - boliga
