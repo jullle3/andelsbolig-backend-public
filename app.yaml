@@ -1,0 +1,13 @@
+env_variables:
+  FRONTEND_URL: 'https://jullle3.github.io/andelsbolig-frontend'
+  THUMBNAIL_URL: 'https://jullle3.github.io/andelsbolig-frontend/favicon/android-chrome-512x512.png'
+  WORKERS: "4"
+
+
+runtime: python39
+instance_class: F1  # Choose an appropriate instance class
+
+automatic_scaling:
+  min_instances: 1  # Always keep at least one instance running
+
+entrypoint: python3 andelsbolig/main.py
